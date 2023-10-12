@@ -1,0 +1,2 @@
+test_array: main.o init_array.o mod.o print_array.o
+	gcc -o test_array main.o init_array.o mod.o print_array.o
